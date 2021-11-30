@@ -1,0 +1,165 @@
+html{ overflow-y: scroll;}
+.viewbtn {
+    float: right;
+    right: 0px;
+}
+
+.breadcrumbs ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs ul li {
+    list-style: none;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 10px;
+}
+.breadcrumbs ul li a:hover{
+   color: #26C6DA;
+}
+/* Thumbnails */
+
+.verticalImageStack {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f0f0f0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.thumbnail.active {
+    border: 2px solid #2874f0;
+}
+.productcart :hover{
+     border: 1px solid #f1faee;
+}
+
+.productContainer {
+    display: "block";
+    text-decoration: "none";
+    color: "#000";
+    width: "200px";
+}
+
+.price {
+    color: rgb(255, 102, 0)
+    /* text-align: center; */
+}
+.proddiscount{
+    background-color: rgb(255, 102, 0);
+    width: 80px;
+
+}
+.productInfo {
+    text-align: center;
+}
+
+.productContainer :hover {
+   
+    color: black !important;
+}
+
+/* Product details */
+
+.productDescContainer {
+    width: 485px;
+}
+
+.productDetails {
+    margin-top: 45%;
+    margin-left: 20%;
+}
+
+.productDescImgContainer {
+    width: 485px;
+    height: 440px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+}
+
+.productDescImgContainer>img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.productTitle {
+    color: #282828;
+
+    line-height: normal;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.shipmentDiv {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.stock{
+    color: orange;
+    text-align: start;
+    text-indent: 0;
+    font-size: 14;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shareprod {
+    text-align: start;
+    text-indent: 0;
+    font-size: 14;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 40, 40);
+}
+.share{
+    /* flex-direction: row; */
+     margin-left: 10px;
+     padding-right: 10px;
+     margin-bottom: 20px;
+}
+.productDesc{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.reviews{
+    margin-top: 30px;
+    margin-left: 20px;
+}

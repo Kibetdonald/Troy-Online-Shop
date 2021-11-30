@@ -1,0 +1,93 @@
+.categoryCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 190px;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.category-title{
+   background-color: #0dd9f9;
+   height: 40px;
+   width: 190px;
+   padding-top: 10px;
+   margin-top: -20px;
+   margin-left: -20px;
+   text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.categoryItems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.categoryItems > ul{
+    display: inline;
+    margin: 0 50px;
+    position: relative;
+}
+.categoryItems > ul > li > span{
+    display: block;
+    line-height: 35px;
+    cursor: pointer;
+    padding: 0 6px;
+    font-size: 14px;
+}
+.categoryItems > ul > li > span:hover{
+    color: #2874f0;
+    width: 100%;
+}
+.categoryItems > ul > li > ul{
+    position: absolute;
+    background-color: #fff;
+    left: 100px;
+    top: 0;
+    right: 0%;
+   line-height: 20px;
+    display: none;
+    border: 0px solid #ccc;
+    width: 980px;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 10;
+    padding-left: 50px;
+}
+.categoryItems > ul > li:hover ul{
+    display: flex;
+}
+.categoryItems > ul > li > ul > li{
+    margin: 0 20px;
+    min-width: 150px;
+    
+}
+.categoryItems > ul > li > ul > li{
+    float: left;
+   
+}
+.categoryItems > ul > li > ul > li > a{
+    font-weight: bold;
+    display: block;
+
+}
+.categoryItems > ul > li > ul > li a{
+    padding: 3px 14px;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: #707070;
+}
+.categoryItems > ul > li > ul > li a:hover{
+    
+    color: #2874f0;
+}
+  
+    

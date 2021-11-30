@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: black !important;
+}
+
+.wrapper{
+    height: 38px;
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: -20px;
+    
+}
+.rightText{
+    float: right;
+    margin-top: -35px;
+    margin-right: 100px;
+    height: 30px;
+    font-size: 14px;
+
+}
+.rightText1{
+   float: right;
+    margin-right: 20px;
+    margin-top: -35px;
+    font-size: 14px;
+
+}
+.randomText{
+    font-size: 16px;
+    margin-top: -35px;
+   text-align: center;  
+   font-weight: bold;  
+}
+.leftText{
+   margin-left: 40px;
+   margin-top: 25px;
+   font-size: 14px;
+}
+.wrapper ul li :hover{
+    color: #2196f3;
+  
+}
+.wrapper ul li{
+    list-style: none;
+}

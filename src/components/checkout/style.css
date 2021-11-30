@@ -1,0 +1,76 @@
+
+.Checkout{
+    margin-top: 50px;
+}
+.Checkout h4{
+ font-family: Roboto, Helvetica, Arial, sans-serif;
+ font-weight: 500;
+ color: #ababab;
+ font-size: 14px;
+ line-height: 20px;
+ font-style: normal;
+ 
+}
+.Checkout h5{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    
+}
+.prodsummary p{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    
+}
+.prodsummary h8{
+    color: #f68b1e;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.location{
+    color: #808080;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.picklocation{
+    border: 0px solid #000;
+    color: #f68b1e;
+    background-color: #fff;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.picklocation:focus{
+    outline: 0;
+}
+.paymentbtn{
+    background-color: #f68b1e;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    color: #fff;
+
+}
+.selectloc{
+    width: 100%;
+    margin: auto;
+}
+.selectPickup{
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    text-align: center;
+
+}

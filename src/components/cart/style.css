@@ -1,0 +1,122 @@
+.cartContainer {
+    background-color: #F5F5F5;
+    height: 80vh;
+}
+
+.cart {
+    margin: auto;
+    width: 60%;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.qtyinput {
+    width: 40%;
+}
+
+.itemQuantity {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.subtotal {
+    text-align: right;
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+}
+
+.subtotal p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.subtotal h8 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    ;
+    color: #ababab;
+    font-size: 14px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btnContainer {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.checkoutbtn1 {
+    width: 220px;
+    border-radius: 4px;
+    margin-left: 60%;
+    height: 50px;
+    margin-top: 15px;
+     font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    color: #f68b1e;
+}
+
+.checkoutbtn2 {
+    width: 220px;
+    border-radius: 4px;
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 15px;
+     color: white;
+    margin-left: 70%;
+    background-color: #f68b1e;
+    font-size: 16px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.checkoutbtn1:hover{
+    background-color: #f68b1e;
+    color: #fff !important;
+}
+.checkoutbtn2:hover{
+    background-color: transparent;
+    color: #f68b1e !important;
+}
+.recents{
+    width: 200px;
+    
+
+}
+.recents h4{
+    
+    font-size: 14px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+  
+}
+.recents h5{
+    color: #202020 ; 
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display:inline;
+  
+}
+.recents h6{
+    color: #202020 ; 
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-left: 6px;
+    display: inline;
+  
+}

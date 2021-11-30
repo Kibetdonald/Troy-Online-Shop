@@ -1,0 +1,42 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+    list-style: none !important;
+}
+a :hover{
+    text-decoration: none !important;
+    color: blue !important;
+    list-style: none !important;
+}
+.footerContainer {
+    background: rgba(0, 0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.footerContainer h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerContainer ul li{
+    text-decoration:none !important;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerContainer ul li:hover{
+    text-decoration: underline;
+}
+.Copyright{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
